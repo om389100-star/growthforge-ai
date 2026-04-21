@@ -1,6 +1,7 @@
 export default function GrowthForgeLandingPage() {
   return (
     <div className="min-h-screen bg-[#0F0F1A] text-white">
+      <p className="text-red-500">TEST CHANGE</p>
       <section className="relative overflow-hidden border-b border-white/10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(124,58,237,0.22),_transparent_35%),radial-gradient(circle_at_left,_rgba(167,139,250,0.16),_transparent_28%)]" />
         <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8">
@@ -148,7 +149,7 @@ export default function GrowthForgeLandingPage() {
             <h2 className="mt-4 text-3xl font-bold sm:text-4xl">Choose the growth plan that fits your stage</h2>
           </div>
           <p className="max-w-xl text-white/65">
-            Start with an audit or move into a fully managed SEO content system. Each plan is productized for clarity, speed, and measurable outcomes.
+            Start with a one-time AI SEO audit for $299, or move into a fully managed SEO content system. Each plan is productized for clarity, speed, and measurable outcomes.
           </p>
         </div>
 
@@ -156,18 +157,18 @@ export default function GrowthForgeLandingPage() {
           {[
             {
               name: 'Starter',
-              price: '₹15K/mo',
+              price: '$1,500 – $2,000 /mo',
               points: ['SEO audit report', 'Keyword opportunity list', '4 optimized blogs/month', 'Basic recommendations'],
             },
             {
               name: 'Growth',
-              price: '₹45K/mo',
+              price: '$3,000 – $5,000 /mo',
               featured: true,
               points: ['Everything in Starter', '8–12 optimized blogs', 'Internal linking strategy', 'Monthly analytics dashboard'],
             },
             {
-              name: 'Premium',
-              price: '₹85K+/mo',
+              name: 'Enterprise',
+              price: '$5,000+ / Custom',
               points: ['Full SEO growth system', 'Competitor monitoring', 'Conversion-focused content', 'Custom reporting & execution'],
             },
           ].map((plan) => (
@@ -247,4 +248,3 @@ export default function GrowthForgeLandingPage() {
     </div>
   );
 }
-
